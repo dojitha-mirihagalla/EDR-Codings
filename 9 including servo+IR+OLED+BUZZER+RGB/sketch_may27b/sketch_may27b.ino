@@ -80,64 +80,64 @@ void loop() {
       case IR_BUTTON_1:
         {
 
-          printOnOLED("Slow");
+         /*  printOnOLED("Slow");
           dcMotorSpeed = 100;  // Set DC motor speed to 100 (example value)
-
+ */
           break;
         }
       case IR_BUTTON_2:
         {
-          printOnOLED("Medium");
-          dcMotorSpeed = 200;  // Set DC motor speed to 200 (example value)
+          /* printOnOLED("Medium");
+          dcMotorSpeed = 200;  // Set DC motor speed to 200 (example value) */
           Serial.println("pressed 2 -> set DC speed 200");
           break;
         }
       case IR_BUTTON_3:
         {
-          printOnOLED("High");
-          dcMotorSpeed = 255;  // Set DC motor speed to maximum
+          /* printOnOLED("High");
+          dcMotorSpeed = 255;  // Set DC motor speed to maximum */
           Serial.println("pressed 3 -> set DC speed 255");
           break;
         }
       case IR_BUTTON_4:
         {
-          printOnOLED("down");
-          verticle_sevo_angle = 120;
+         /*  printOnOLED("down");
+          verticle_sevo_angle = 120; */
           Serial.println("pressed 4-> V_angle 60");
           break;
         }
       case IR_BUTTON_5:
         {
-          printOnOLED("middle");
-          verticle_sevo_angle = 90;
+         /*  printOnOLED("middle");
+          verticle_sevo_angle = 90; */
           Serial.println("pressed 5-> V_angle 90");
           break;
         }
       case IR_BUTTON_6:
         {
-          printOnOLED("up");
-          verticle_sevo_angle = 60;
+         /*  printOnOLED("up");
+          verticle_sevo_angle = 60; */
           Serial.println("pressed 6-> V_angle 120");
           break;
         }
       case IR_BUTTON_7:
         {
-          printOnOLED("left");
-          horizontal_sevo_angle = 60;
+        /*   printOnOLED("left");
+          horizontal_sevo_angle = 60; */
           Serial.println("pressed 7-> V_angle 60");
           break;
         }
       case IR_BUTTON_8:
         {
-          printOnOLED("middle");
-          horizontal_sevo_angle = 90;
+          /* printOnOLED("middle");
+          horizontal_sevo_angle = 90; */
           Serial.println("pressed 8-> V_angle 90");
           break;
         }
       case IR_BUTTON_9:
         {
-          printOnOLED("right");
-          horizontal_sevo_angle = 120;
+         /*  printOnOLED("right");
+          horizontal_sevo_angle = 120; */
           Serial.println("pressed 9-> V_angle 120");
           break;
         }
@@ -145,11 +145,11 @@ void loop() {
         {
 
           printOnOLED("OFF");
-          dcMotorSpeed = 0;  // Set DC motor speed to 100 (example value)
+         /*  dcMotorSpeed = 0;  // Set DC motor speed to 100 (example value)
           // Turn on red color
           digitalWrite(redPin, HIGH);
           digitalWrite(greenPin, LOW);
-          digitalWrite(bluePin, LOW);
+          digitalWrite(bluePin, LOW); */
 
           break;
         }
