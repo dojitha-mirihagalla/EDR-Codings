@@ -1,2 +1,3 @@
-# EDR-Codings
-EDR module test codes will be here
+# Engineering Design realization Module
+
+Some Test codes for testing and debugging would be added here...
